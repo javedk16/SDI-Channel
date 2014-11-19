@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/blur_background">
+    
+    
+    
+   <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/about_card_ui"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+        
+    <TextView 
+        android:id="@+id/sdi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SUNNI DAWATE ISLAMI"
+        android:gravity="center"
+        android:textColor="#0064A8"
+        android:layout_marginTop="10dp"
+        android:textSize="22dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="www.sunnidawateislami.net"
+        android:gravity="center"
+        android:textColor="#666666"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="www.youtube.com/sdichannel"
+        android:gravity="center"
+        android:textColor="#666666"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    
+   
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright &#169; SDI App Team"
+        android:gravity="center"
+        android:textColor="#666666"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"/>
+        
+        
+    </LinearLayout>
+    
+    
+    
+    
+
+</LinearLayout>

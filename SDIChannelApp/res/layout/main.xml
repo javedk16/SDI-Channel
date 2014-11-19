@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        	<RelativeLayout
+        	    android:onClick="speeches"
+        	    android:id="@+id/oneone"
+        	    android:layout_width="0dp"
+        	    android:layout_height="fill_parent"
+        	    android:layout_weight="1"
+        	    android:background="#268BCF" >
+
+        	    	<ImageView
+        	    	    android:id="@+id/imageView1"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:src="@drawable/speech" />
+
+        	    	<TextView
+        	    	    android:id="@+id/tv1"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_alignParentBottom="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:paddingBottom="5dp"
+        	    	    android:text="Speeches"
+        	    	    android:textColor="#ffffff"
+        	    	    android:textSize="18sp" />
+
+        	</RelativeLayout>
+
+        	<RelativeLayout
+        	    android:id="@+id/onetwo"
+        	    android:layout_width="0dp"
+        	    android:layout_height="match_parent"
+        	    android:layout_weight="1"
+        	    android:background="#1C81C5"
+        	    android:onClick="naats">
+					
+        	    <TextView
+        	    	    android:id="@+id/tv2"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_alignParentBottom="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:paddingBottom="5dp"
+        	    	    android:text="Naats"
+        	    	    android:textColor="#ffffff"
+        	    	    android:textSize="18sp" />
+
+        	    <ImageView
+        	        android:id="@+id/imageView2"
+        	        android:layout_width="wrap_content"
+        	        android:layout_height="wrap_content"
+        	        android:layout_centerHorizontal="true"
+        	        android:layout_centerVertical="true"
+        	        android:src="@drawable/naat" />
+
+        	</RelativeLayout>
+        	
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/two"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        	
+        	<RelativeLayout
+        	    android:id="@+id/twoone"
+        	    android:onClick="special"
+        	    android:layout_width="0dp"
+        	    android:layout_height="match_parent"
+        	    android:layout_weight="1"
+        	    android:background="#0F72B5" >
+					
+        	    	<TextView
+        	    	    android:id="@+id/tv3"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_alignParentBottom="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:paddingBottom="5dp"
+        	    	    android:text="Special"
+        	    	    android:textColor="#ffffff"
+        	    	    android:textSize="18sp" />
+
+        	    	<ImageView
+        	    	    android:id="@+id/imageView3"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:src="@drawable/special" />
+        	    	
+        	</RelativeLayout>
+
+        	<RelativeLayout
+        	    android:id="@+id/twotwo"
+        	    android:onClick="recent"
+        	    android:layout_width="0dp"
+        	    android:layout_height="match_parent"
+        	    android:layout_weight="1"
+        	    android:background="#0064A8" >
+			
+        	    	<TextView
+        	    	    android:id="@+id/tv4"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_alignParentBottom="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:paddingBottom="5dp"
+        	    	    android:text="Recent"
+        	    	    android:textColor="#ffffff"
+        	    	    android:textSize="18sp" />
+
+        	    	<ImageView
+        	    	    android:id="@+id/imageView4"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:src="@drawable/recent" />
+        	    	
+        	</RelativeLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/three"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#000">
+        	
+        	<RelativeLayout
+        	    android:id="@+id/threeone"
+        	    android:onClick="shortClips"
+        	    android:layout_width="0dp"
+        	    android:layout_height="match_parent"
+        	    android:layout_weight="1"
+        	    android:background="#00579A" >
+					
+        	    	<TextView
+        	    	    android:id="@+id/tv5"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_alignParentBottom="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:paddingBottom="5dp"
+        	    	    android:text="Short Clips"
+        	    	    android:textColor="#ffffff"
+        	    	    android:textSize="18sp" />
+
+        	    	<ImageView
+        	    	    android:id="@+id/imageView5"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:src="@drawable/feedback" />
+        	    	
+        	</RelativeLayout>
+
+        	<RelativeLayout
+        	    android:onClick="about"
+        	    android:id="@+id/threetwo"
+        	    android:layout_width="0dp"
+        	    android:layout_height="match_parent"
+        	    android:layout_weight="1"
+        	    android:background="#005095" >
+        	    	
+        	   <TextView
+        	    	    android:id="@+id/tv6"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_alignParentBottom="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:paddingBottom="5dp"
+        	    	    android:text="About"
+        	    	    android:textColor="#ffffff"
+        	    	    android:textSize="18sp" />
+
+        		<ImageView
+        		    android:id="@+id/imageView6"
+        		    android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:layout_centerHorizontal="true"
+        		    android:layout_centerVertical="true"
+        		    android:src="@drawable/about" />
+        	    
+        	</RelativeLayout>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

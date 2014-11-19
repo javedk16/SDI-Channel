@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.javed.sdi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.javed.sdi.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.javed.sdi.activities.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:label="Playlist"
+            android:name="com.javed.sdi.activities.Home" >
+        </activity>
+        
+        <activity
+            android:label="Playlist"
+            android:name="com.javed.sdi.activities.PlaylistVideos" >
+        </activity>
+        
+        <activity
+            android:label="Play Video"
+            android:name="com.javed.sdi.activities.PlayVideo" >
+        </activity>
+        
+        <activity
+            android:label="Speakers"
+            android:name="com.javed.sdi.activities.SpeakersActivity" >
+        </activity>
+        
+        <activity
+            android:label="Naats"
+            android:name="com.javed.sdi.activities.NaatsActivity" >
+        </activity>
+        
+        <activity
+            android:label="Special"
+            android:name="com.javed.sdi.activities.SpecialActivity" >
+        </activity>
+        
+        <activity
+            android:label="Recent Videos"
+            android:name="com.javed.sdi.activities.RecentActivity" >
+        </activity>
+        
+        <activity
+            android:label="Short Clips"
+            android:name="com.javed.sdi.activities.ShortClipsActivity" >
+        </activity>
+        
+        <activity
+            android:label="About"
+            android:name="com.javed.sdi.activities.AboutActivity" >
+        </activity>
+        
+          <activity
+            android:label="Oops"
+            android:name="com.javed.sdi.activities.DownloadErrorActivity" >
+        </activity>
+        
+        
+    </application>
+
+</manifest>

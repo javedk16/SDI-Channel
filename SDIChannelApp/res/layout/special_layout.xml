@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#DEDEDE">
+    
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical">
+     
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        	<RelativeLayout
+        	    android:onClick="maheRamzan"
+        	    android:id="@+id/oneone"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:layout_weight="1"
+        	    android:padding="15dp"
+        	    android:background="@drawable/card_ui" >
+
+        	    	<TextView
+        	    	    android:id="@+id/maulana_shakir"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:text="Mahe Ramzan Special"
+        	    	    android:gravity="center"
+        	    	    android:textColor="#666666"
+        	    	    android:textSize="23sp" />
+
+        	</RelativeLayout>
+ 	
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        	<RelativeLayout
+        	    android:onClick="womenSpecial"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:layout_weight="1"
+        	    android:padding="15dp"
+        	    android:background="@drawable/card_ui" >
+
+        	    	<TextView
+        	    	    android:id="@+id/allama"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:text="For Sisters"
+        	    	    android:gravity="center"
+        	    	    android:textColor="#666666"
+        	    	    android:textSize="23sp" />
+
+        	</RelativeLayout>
+ 	
+    </LinearLayout>
+    
+    
+    
+    </LinearLayout>
+ 
+  
+</ScrollView>
+

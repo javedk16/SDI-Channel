@@ -1,0 +1,223 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#DEDEDE">
+    
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical">
+     
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        	<RelativeLayout
+        	    android:onClick="maulanaShakir"
+        	    android:id="@+id/oneone"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:layout_weight="1"
+        	    android:padding="15dp"
+        	    android:background="@drawable/card_ui" >
+
+        	    	<TextView
+        	    	    android:id="@+id/maulana_shakir"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:text="Maulana Shakir Noorie"
+        	    	    android:gravity="center"
+        	    	    android:textColor="#666666"
+        	    	    android:textSize="23sp" />
+
+        	</RelativeLayout>
+ 	
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        	<RelativeLayout
+        	    android:onClick="allama"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:layout_weight="1"
+        	    android:padding="15dp"
+        	    android:background="@drawable/card_ui" >
+
+        	    	<TextView
+        	    	    android:id="@+id/allama"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:text="Allama Azmi"
+        	    	    android:gravity="center"
+        	    	    android:textColor="#666666"
+        	    	    android:textSize="23sp" />
+
+        	</RelativeLayout>
+ 	
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        	<RelativeLayout
+        	    android:onClick="aminulQadri"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:layout_weight="1"
+        	    android:padding="15dp"
+        	    android:background="@drawable/card_ui" >
+
+        	    	<TextView
+        	    	    android:id="@+id/aminul_qadri"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:text="Sayyed Aminul Qadri"
+        	    	    android:gravity="center"
+        	    	    android:textColor="#666666"
+        	    	    android:textSize="23sp" />
+
+        	</RelativeLayout>
+ 	
+    </LinearLayout>
+    
+   
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        	<RelativeLayout
+        	    android:onClick="muftiZubair"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:layout_weight="1"
+        	    android:padding="15dp"
+        	    android:background="@drawable/card_ui" >
+
+        	    	<TextView
+        	    	    android:id="@+id/mufti_zubair"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:text="Mufti Zubair"
+        	    	    android:gravity="center"
+        	    	    android:textColor="#666666"
+        	    	    android:textSize="23sp" />
+
+        	</RelativeLayout>
+ 	
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        	<RelativeLayout
+        	    android:onClick="qariRizwan"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:layout_weight="1"
+        	    android:padding="15dp"
+        	    android:background="@drawable/card_ui" >
+
+        	    	<TextView
+        	    	    android:id="@+id/qari_rizwan"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:text="Qari Rizwan"
+        	    	    android:gravity="center"
+        	    	    android:textColor="#666666"
+        	    	    android:textSize="23sp" />
+
+        	</RelativeLayout>
+ 	
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        	<RelativeLayout
+        	    android:onClick="sadiqRazvi"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:layout_weight="1"
+        	    android:padding="15dp"
+        	    android:background="@drawable/card_ui" >
+
+        	    	<TextView
+        	    	    android:id="@+id/sadiq_razvi"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:text="Sadiq Razvi"
+        	    	    android:gravity="center"
+        	    	    android:textColor="#666666"
+        	    	    android:textSize="23sp" />
+
+        	</RelativeLayout>
+ 	
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        	<RelativeLayout
+        	    android:onClick="khalidRazvi"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:layout_weight="1"
+        	    android:padding="15dp"
+        	    android:background="@drawable/card_ui" >
+
+        	    	<TextView
+        	    	    android:id="@+id/khalid_razvi"
+        	    	    android:layout_width="wrap_content"
+        	    	    android:layout_height="wrap_content"
+        	    	    android:layout_centerVertical="true"
+        	    	    android:layout_centerHorizontal="true"
+        	    	    android:text="Khalid Razvi"
+        	    	    android:gravity="center"
+        	    	    android:textColor="#666666"
+        	    	    android:textSize="23sp" />
+
+        	</RelativeLayout>
+ 	
+    </LinearLayout>
+    
+    </LinearLayout>
+ 
+  
+</ScrollView>
+
